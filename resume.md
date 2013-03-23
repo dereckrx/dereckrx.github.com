@@ -95,7 +95,7 @@ Interests
 * Fitness Enthusiast: boxing, circus arts, weightlifting, and biking
 * Discussing and engaging in side projects with friends
 * Body hacking, life hacking and general self-improvement
-* Electronic music, festivals, and Burning Man 2010 & 2011
+* Electronic music, festivals, and Burning Man 2008 & 2009
 
 -
 **Download**
