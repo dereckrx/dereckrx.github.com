@@ -37,6 +37,9 @@
       <div class="navbar-inner">
         <div class="container-narrow">
           
+			   	<a href="{{ HOME_PATH }}">
+			      <img src="{{ site.gravatar_url }}?s=150" height="20" width="20" class="brand" />
+			    </a>
 					<a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
           <ul class="nav">
             {% assign pages_list = site.pages %}
@@ -54,7 +57,14 @@
       </div>
       <hr>
       <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+				<div class="navbar">
+					<p class="brand">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}</p>
+	        <!-- <ul class="nav">
+	          {% assign pages_list = site.pages %}
+	          {% assign group = 'footer_nav' %}
+	        	{% include JB/pages_list %}
+	        </ul> -->
+				</div>
       </footer>
 
     </div>

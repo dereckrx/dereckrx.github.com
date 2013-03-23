@@ -1,21 +1,27 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /posts/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true
-pygments: true
+auto:       true
+pygments:   true
+
+# Source files, and compiled files
+#source:      .          # ./src
+#destination: ./_site    # ./site
+#plugins:     ./_plugins # 
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : DKRX
-tagline: is, ism, ist
+tagline: "is, ism, ist"
 author :
   name : Dereck Rasmussen
   email : dereckrx@gmail.com
   github : dereckrx
   twitter : dereckrx
+gravatar_url: http://www.gravatar.com/avatar/2212eabadd7316454cbabcb6c0078a14.png
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -25,7 +31,7 @@ author :
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://www.dereckrx.com
+production_url : http://dereckrx.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -80,15 +86,11 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : facebook
     disqus :
       short_name : jekyllbootstrap
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
     facebook :
-      appid : 123
+      appid : 166593833424213
       num_posts: 5
       width: 580
       colorscheme: light
@@ -100,11 +102,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
+        tracking_id : 'UA-34660771-2'
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
