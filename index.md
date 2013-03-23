@@ -8,4 +8,4 @@ tagline: is, ism, ist
 
 ![alt "Cover Photo"][cover_photo]
 
-[cover_photo]: {{ BASE_PATH }}/room.jpg
+[cover_photo]: https://sphotos-b.xx.fbcdn.net/hphotos-prn1/486527_814966249464_176791897_n.jpg
