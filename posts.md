@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Posts 
-group: navigation_not
+group: navigation
 ---
 {% include JB/setup %}
 

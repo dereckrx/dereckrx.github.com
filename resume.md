@@ -1,44 +1,39 @@
 ---
 layout: default
-title: Resum&eacute;
+title: Resume
 group: navigation
 ---
 
-Dereck Rasmussen
-==============
-
-San Francisco, CA - [dereckrx@gmail.com](mailto:dereckrx@gmail.com)
+# Dereck Rasmussen
+San Francisco, CA - [email](mailto:dereckrx@gmail.com)
 
 ---
 
-Software Engineer
----
+## Software Engineer
+
 Principle Software Engineer with 5+ years of experience working with teams developing product including coding, testing, integration and deployment.
 
 ---
 
-Experience
----
+## Experience
 
 * **[GAIN Fitness](http://gainfitness.com)** (San Francisco, CA)
 	
 	Co-Founder/Software Engineer, May 2010 - present
 
 	* Pioneered a concept from spreadsheets and excel models into a functional website and mobile app backend. 
-	* Worked on all aspects of the project’s development, including front-end design, back-end development, API design, database administration duties, server configuration, and data parsing and processing.
+	* Worked on all aspects of the project’s development, including front-end design, back-end development, API design, database administration duties, server configuration, and data parsing and processing.  
 <br/>
-
 * **Personal Shopper**  (Boise, ID)
 
 	Software Engineer, May 2007 - January 2009
 
 	* Managed all phases of development of internal, web based tools for an e-commerce website. 
 	* Worked closely with marketing team to define features for managing a large database of products. 
-	* Added a complex category tree editing feature to a product category management tool, and updated the project to use the Google Web Toolkit.
+	* Added a complex category tree editing feature to a product category management tool, and updated the project to use the Google Web Toolkit.  
 <br/>
-
 * **[Boise State University](http://boisestate.edu/)** (Boise, ID)
-
+	
 	[Hartman Systems Integration Laboratory](http://coen.boisestate.edu/ece/hartman-systems-integration-laboratory/)
 	
 	Research Assistant, January 2006 - December 2006
@@ -48,8 +43,7 @@ Experience
 
 ---
 
-Education
----------
+## Education
 
 * **[Boise State University](http://boisestate.edu)** (Boise, ID)
 
@@ -63,8 +57,7 @@ Education
 
 ---
 
-Skills
-------
+## Skills
 
 * Languages
 
@@ -90,13 +83,13 @@ Skills
 
 ---
 
-Interests
----
+## Interests
 * Fitness Enthusiast: boxing, circus arts, weightlifting, and biking
 * Discussing and engaging in side projects with friends
 * Body hacking, life hacking and general self-improvement
 * Electronic music, festivals, and Burning Man 2008 & 2009
 
--
+---
+
 **Download**
 [Plaintext](https://raw.github.com/dereckrx/dereckrx.github.com/master/resume.md)
