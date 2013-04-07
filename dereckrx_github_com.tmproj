@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>_config.yml</string>
+	<string>_posts/2013-03-26-bike-buying-guide.md</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -35,44 +35,44 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>_posts/2013-03-21-hello-jekyll.md</key>
+		<key>_posts/2013-03-26-bike-buying-guide.md</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>13</integer>
+				<integer>28</integer>
 				<key>line</key>
-				<integer>16</integer>
+				<integer>64</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>7</integer>
+			<integer>51</integer>
 		</dict>
 		<key>resume.md</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>2</integer>
+				<integer>13</integer>
 				<key>line</key>
-				<integer>70</integer>
+				<integer>2</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>61</integer>
+			<integer>25</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>_posts/2013-03-21-hello-jekyll.md</string>
+		<string>_posts/2013-03-26-bike-buying-guide.md</string>
 		<string>_config.yml</string>
 		<string>resume.md</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{2454, 438}, {793, 612}}</string>
+	<string>{{833, 416}, {793, 612}}</string>
 </dict>
 </plist>

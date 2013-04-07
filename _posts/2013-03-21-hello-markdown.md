@@ -6,75 +6,97 @@ category:
 tags: []
 ---
 {% include JB/setup %}
+![Alt ref][markdown_icon]
 
-### Headers
-# h1 `# h1, ## h2,..., ###### h6, etc`
-
-h1 `Any text above ===`
-========
-
-h2 `Any text above ---`
-------
-
-*em* `*em*, _em_` or __strong__ `**strong**, __strong__` or ***both*** `***both***, ___both___`
-
-### Break
-Two spaces and a return `'  \n'` to create a `<br/>`     
-BREAK!
-
+### Headers `### Headers`
+	# h1
+	## h2 
+	... 
+	###### h6
+	etc
+	
 ### Horizontal Rule `---`
 
 ---
 
+### Emphasis
+*Emphasis* `*em*, _em_` or __strong__ `**strong**, __strong__` or ***both*** `***both***, ___both___`.
+
+### Break
+Two spaces and a return `'  \n'` to create a `<br/>`
+
+### Blockquote
+
 > A blockquote `> A blockquote`
-> > nested blockquote `> > nested blockquote`
+>> nested blockquote `>> nested blockquote`
 > 
 > blockquote continued
 
-### Comments
-Standard html `<!-- comment -->` <!-- comment --> 
-
-Or triple dash `<!--- comment -->` <!--- comment -->  
+### HTML
+	<div> <p> <span> <table>
+	Comment <!-- comment -->
 
 ### Lists
-Unordered: (\+,\-,\*) these are interchangeable 
-+ Red
-- Blue
-* Green
+Unordered: \+, \-, or \* are interchangeable 
++ Red `+ Red`
+- Blue `- Blue`
+* Green `* Green`
 
-Numbered:
-1. one
-1. two
-1. three
+Ordered: a number followed by a period, and they don't have to be in sequential .
+1. one `1. one`
+1. two `1. two`
+1. three `1. three`
   
-	* nested item
+	* nested item `  * nested item`
 
 ## Code Blocks
-Ready?
+Indent four spaces to create an escaped code block:
 
 		<div class="footer">
 			&copy; 2004 Foo Corporation
 		</div>
 		
-Or a span of code `printf()` in a paragraph
+Or use \`backticks\` to create a `span.of(code)` in a paragraph.
 		
 ## Links
-relative path [here](/resume/)
+	* Inline: [Google](http:///www.google.com/ "A link to google").
+	* Relative path: [resume](/resume/).  
+	* Numeric Reference: [Google][1].
+	* Named reference: [Google][google].  
+	* Implicit: [google][].
+	* Automatic links <http://www.google.com> and emails <mark@down.com>.
 
-inline [link](http://dereckrx.com "DKRX")
+	[1]: http://www.google.com/ "Optional title here"
+	[google]: http://www.google.com/
+		
+* Inline: [Google](http:///www.google.com/ "A link to google").
+* Relative path: [resume](/resume/).  
+* Numeric Reference: [Google][1].
+* Named reference: [Google][google].  
+* Implicit: [google][].
+* Automatic links <http://www.google.com> and emails <mark@down.com>.
 
-reference [a ref][1]
+[1]: http://www.google.com/ "Optional title here"
+[google]: http://www.google.com/		
 
-Implicit link [Google][]
-
-Or automatic <http://dereckrx.com> links or emails: <dereckrx@gmail.com>
-
-[1]: http://example.com/ "Optional title here"
-[Google]: http://google.com/
 
 ## Images
-![Alt text](/path/to/img.jpg "optional title")
+	* Path: 
+	
+	![Alt text](/path/to/img.jpg "optional title")
+	
+	* Reference 
+	
+	![Alt ref][image]
 
-Or reference ![Alt ref][image]
+	[image]: url/to/image "optional title attribute"
+	
+* Path:
 
-[image]: url/to/image "optional title attribute"
+![Alt text](https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRK9GgXnEgdDOs_n6S_c71I6vWXgSmKR99hK-UVHgDq7o8GfH6CPw "optional title")
+
+* Reference 
+
+![Alt ref][markdown_icon]
+
+[markdown_icon]: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaOb8H0LGKF9WdtZuoyCe2sqN_UKbWyvpk6JU1XmeWSFoDI0Pe "Markdown Icon"
