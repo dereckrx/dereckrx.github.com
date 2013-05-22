@@ -21,16 +21,18 @@ Principle Software Engineer with 5+ years of experience working with teams devel
 	
 	Co-Founder/Software Engineer, May 2010 - present
 
-	* Pioneered a concept from spreadsheets and excel models into a functional website and mobile app backend. 
-	* Worked on all aspects of the project’s development, including front-end design, back-end development, API design, database administration duties, server configuration, and data parsing and processing.  
+	* Pioneered algorithm-based fitness programs, taking the concept from spreadsheet models to full web and mobile apps.
+	* Built and scaled Ruby on Rails backend architecture to support 10+ workout apps.
+	* Implemented web interface for building and viewing workouts.
+	* Created human-readable data format and parser to process vast amounts of algorithm data.  
 <br/>
 * **Personal Shopper**  (Boise, ID)
 
 	Software Engineer, May 2007 - January 2009
 
-	* Managed all phases of development of internal, web based tools for an e-commerce website. 
-	* Worked closely with marketing team to define features for managing a large database of products. 
-	* Added a complex category tree editing feature to a product category management tool, and updated the project to use the Google Web Toolkit.  
+	* Tasked with mastering internal web based tools for Personal Shopper's e-commerce website.
+	* Interfaced with a large database of affiliate products using a Java backend.
+	* Redesigned proprietary in-house tools to use the Google Web Toolkit, improving their usability and maintainability.
 <br/>
 * **[Boise State University](http://boisestate.edu/)** (Boise, ID)
 	
@@ -49,7 +51,7 @@ Principle Software Engineer with 5+ years of experience working with teams devel
 
 	Computer Science, September 2002 - December 2006
 
-	* Studied algorithms and data structures using Java and object oriented techniques
+	* Studied algorithms and data structures using Java and object oriented techniques.
 	* Analysis of object oriented design in C such as modularity, inheritance, encapsulation and object simulation. 
 	* In depth analysis and comparison of run times for sorting, recursive and iterative algorithms. 
 	* Programming language analysis involving fundamental differences, along with syntactic and semantic rules. 
@@ -84,10 +86,10 @@ Principle Software Engineer with 5+ years of experience working with teams devel
 ---
 
 ## Interests
-* Fitness Enthusiast: boxing, circus arts, weightlifting, and biking
+* Fitness Enthusiast: boxing, yoga, mindfulness, circus arts, weightlifting, and cycling
 * Discussing and engaging in side projects with friends
-* Body hacking, life hacking and general self-improvement
-* Electronic music, festivals, and Burning Man 2008 & 2009
+* Life hacking and rigorous, project-oriented self improvement
+* House music and electronic music festivals
 
 ---
 
