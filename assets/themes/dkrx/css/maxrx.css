@@ -7,6 +7,7 @@
 	margin-top: 50px;
 	text-align: center;
 }
+
 .main_input { 
 	height: 48px;
 	width: 90px;
@@ -15,6 +16,25 @@
 	font-size: 1.5em; 
 	border-radius: 5px;
 }
+
+#reps { 
+	height: 48px;
+	width: 90px;
+	padding-left: 10px;
+	margin: 10px;
+	font-size: 1.5em; 
+	border-radius: 5px;
+}
+
+#weight { 
+	height: 48px;
+	width: 90px;
+	padding-left: 10px;
+	margin: 10px;
+	font-size: 1.5em; 
+	border-radius: 5px;
+}
+
 #instructions {
 	height: 50px;
 	color: #777;
