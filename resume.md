@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Resume
-group: navigation
 ---
+[Goole Drive Resume](https://docs.google.com/document/d/1AO7U4_bFDStoOtYKClrwMGpfSqPyJm9x9oAAI-ctds4/edit?usp=sharing)
 
 # Dereck Rasmussen
 San Francisco, CA - [email](mailto:dereckrx@gmail.com)

@@ -1,0 +1,52 @@
+.main {
+	background: rgba(256, 256, 256, 0.7);
+	max-width: 100%;
+	font: 16px arial, sans-serif;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+}
+.main_input { 
+	height: 48px;
+	width: 90px;
+	padding-left: 10px;
+	margin: 10px;
+	font-size: 1.5em; 
+	border-radius: 5px;
+}
+#instructions {
+	height: 50px;
+	color: #777;
+}
+#max_box {
+	display: none;
+	height: 50px;
+}
+#max {
+	font-size: 3em;
+	color: orange;
+	padding: 0;
+	margin: 0;
+}
+.main table {
+	margin: 0 auto;
+}
+table td, table th {
+	font-size: 1.5em;
+	padding: 5px;
+	border: 1px solid #CCC;
+}
+
+#g_plus_one {
+	display:none;
+}
+
+@media screen and (max-width: 640px) { /* screen <= 640 px width */
+	header h1 {
+		margin: 10px;
+	}
+	.main {
+		margin-top: 0;
+	}
+}
