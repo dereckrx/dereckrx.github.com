@@ -4,6 +4,7 @@ title: "Hello Markdown"
 description: ""
 category: 
 tags: []
+date: 2013-03-21
 ---
 {% include JB/setup %}
 ![Alt ref][markdown_icon]

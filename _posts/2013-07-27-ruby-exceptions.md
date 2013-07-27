@@ -1,4 +1,14 @@
-# Exception Best Practices
+---
+layout: post
+title: Ruby Exceptions
+---
+
+Information and best practices for Ruby exceptions.
+
+* [Exception Hierarchy]
+* [Rescue]
+* [Custom Exceptions] 
+
 
 ## Exception Hierarchy
 
@@ -45,7 +55,7 @@
 
 The default behavior of rescue will catch any StandardError or any of it's subclasses. This does not include the many enviornmental exceptions. 
 
-> *Error* should normally be reserved for describing application errors, while *exceptions* should be used to describe environmental exceptions. 
+> *Error* should normally be reserved for describing errors you expect in your application, such as bad user input. While *exceptions* should be used to describe environmental exceptions, you should never "expect" an exception.
 
 	begin
 	  raise "FAIL!"
@@ -65,13 +75,26 @@ The default behavior of rescue will catch any StandardError or any of it's subcl
 	  # ...               # So syntax error is not rescued
 	end
 
-Avoid rescuing the the `Exception` class because it will catch eviornmental exceptions including calls to `exit`, requiring you to `kill-9` the process. 
+Avoid rescuing the the `Exception` class because it will also catch eviornmental exceptions including calls to `exit`, requiring you to `kill-9` the process. 
 
-	begin
-	  raise SystemExit
+
+	# bad
 	rescue Exception
-	  # Process will remain until killed
+	# good
+	rescue => e # a blind rescue rescues from StandardError, not Exception
+	# also good
+	rescue StandardError => e
+
+
+You can Use *contingency methods* to DRY up begin/rescue blocks:
+
+	def with_io_error_handling
+		yield
+	rescue IOError
+		# handle IOError
 	end
+
+	with_io_error_handling { something_that_might_fail }
 
 
 ## Custom Exceptions
@@ -91,7 +114,7 @@ Custom errors should inherit from `StandardError` and not `Exception`. If you su
 	begin 
 	  raise SyntaxError
 	rescue MyApp::error 	# Inheriting from StandardError ensures that
-	  # ...					# enviornmental exceptions pass through.
+		#...				# enviornmental exceptions pass through.
 	end
 
 
@@ -126,3 +149,8 @@ This also allows you to rescue any of your custom errors with `rescue MyApp::Err
 	rescue MyApp::Error        # Allows syntax error to pass through
 	  # ...
 	end
+
+## Links
+* <http://phrogz.net/programmingruby/tut_exceptions.html>
+* <http://www.skorks.com/2009/09/ruby-exceptions-and-exception-handling/>
+* <http://stackoverflow.com/questions/4375888/best-practice-using-system-supplied-or-custom-exceptions-for-error-conditions-i>
