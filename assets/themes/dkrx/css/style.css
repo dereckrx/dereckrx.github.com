@@ -69,3 +69,25 @@
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+/* Slide show */
+
+#slideshow {
+    position:relative;
+    height:350px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}

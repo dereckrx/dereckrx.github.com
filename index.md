@@ -5,16 +5,43 @@ tagline: is, ism, ist
 ---
 {% include JB/setup %}
 
-![alt "Costa Rica"][costa_rica]
+<div id="slideshow">
+    <img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc3/996523_855163443964_1450477945_n.jpg" style="position:absolute;" class="active" />
+    <img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash4/1002752_855164696454_1538242372_n.jpg" style="position:absolute;" />
+    <img src="https://sphotos-b.xx.fbcdn.net/hphotos-prn1/486527_814966249464_176791897_n.jpg" style="position:absolute;" />
+</div>
 
----
+## Pages
 
-![alt "Bali"][bali]
+<ul>
+	{% assign pages_list = site.pages %}
+	{% include JB/pages_list %}
+</ul>
 
----
+<script type="text/javascript">
+	// Source: http://jonraasch.com/blog/a-simple-jquery-slideshow
 
-![alt "Cover Photo"][cover_photo]
+	function slideSwitch() {
 
-[costa_rica]: https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-frc3/996523_855163443964_1450477945_n.jpg
-[bali]: https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash4/1002752_855164696454_1538242372_n.jpg
-[cover_photo]: https://sphotos-b.xx.fbcdn.net/hphotos-prn1/486527_814966249464_176791897_n.jpg
+	    var $active = $('#slideshow IMG.active');
+
+	    if ( $active.length === 0 ) $active = $('#slideshow IMG:last');
+
+	    var $next =  $active.next().length ? $active.next()
+	        : $('#slideshow IMG:first');
+
+	    $active.addClass('last-active');
+
+	    $next.css({opacity: 0.0})
+	        .addClass('active')
+	        .animate({opacity: 1.0}, 1000, function() {
+	            $active.removeClass('active last-active');
+	        });
+	}
+
+	$(document).ready(function() {
+	  setInterval( "slideSwitch()", 4000 );
+	});
+
+</script>
+
