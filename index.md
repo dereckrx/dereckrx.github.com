@@ -11,7 +11,7 @@ tagline: is, ism, ist
     <img src="https://sphotos-b.xx.fbcdn.net/hphotos-prn1/486527_814966249464_176791897_n.jpg" style="position:absolute;" />
 </div>
 
-## Pages
+## Posts
 
 <ul class="posts">
   {% for post in site.posts %}

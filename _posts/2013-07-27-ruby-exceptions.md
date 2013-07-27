@@ -5,9 +5,9 @@ title: Ruby Exceptions
 
 Information and best practices for Ruby exceptions.
 
-* [Exception Hierarchy]
-* [Rescue]
-* [Custom Exceptions] 
+* Exception Hierarchy
+* Rescue
+* Custom Exceptions
 
 
 ## Exception Hierarchy
