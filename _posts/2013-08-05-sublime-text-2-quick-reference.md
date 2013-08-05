@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "new post"
+title: "Sublime Text 2 Quick Reference"
 description: ""
 category: 
 tags: []
@@ -32,8 +32,8 @@ tags: []
 * cmd+k+b : toggle sidebar
 
 ## Layout
-* cmd+opt+<1..5> : Add columns to layout
-* sht+ctrl+<1..5>: move file to <number> column 
+* cmd+opt+(1..5) : Add columns to layout
+* sht+ctrl+(1..5): move file to `number` column 
 * cmd+p : go to anything. Use with:
 	- '@' for symbols and methods, or CSS declarations
 	- ':' line number 
@@ -51,7 +51,7 @@ Options:
 shft+cmd+p : package manager: install -> search for package
 
 ### view documentation
-Sublime Text > Preferences -> Browse Packages -> <package_name> -> (drag read me into sublime to view)
+Sublime Text > Preferences -> Browse Packages -> package_name -> (drag read me into sublime to view)
 
 ## Snippets 
 shft+cmd+p : snippet + name # this will fuzzy search for snippets
@@ -60,14 +60,14 @@ shft+cmd+p : snippet + name # this will fuzzy search for snippets
 Tools -> new snippet 
 
 * edit "Hello, ${1:this} is a ${2:snippet}." line
-* ${<order>:<default_value>} Stop points. Hit tab to advance to the next stop point
+* ${order:default_value} Stop points. Hit tab to advance to the next stop point
 
 Save in folder where name is syntax type like 'JavaScript' -> 'Backbone' etc
 File name must have `.sublime-snippet` extension.
 
 * name should be descriptive like for  'Backbone.view.extend' use 'view-extend'
 
-You can google 'sublime text <language> snippets' and clone into package directory.
+You can google 'sublime text -language- snippets' and clone into package directory.
 
 ## Useful tools/packages
 * ZenCoding for HTML generation
@@ -92,12 +92,13 @@ Can view all project settings in Sublime > Preferences > Settings - User
 
 * cmd+shf+p : edit project
 * edit the folders array to add or remove paths
-* can use "file_exclude_patterns": ["*.css"] to remove matching files
-* "folder_exclude_patterns": ["js", "css"]
-"settings":
-{     
-     "tab_size": 2
-}
+* can use `"file_exclude_patterns": ["*.css"]` to remove matching files
+
+		"folder_exclude_patterns": ["js", "css"]
+		"settings":
+		{     
+		     "tab_size": 2
+		}
 
 ## Custom Builds
 Can be used to create deploy scripts and test scripts or compile scripts
@@ -115,5 +116,5 @@ Tools > Build System > New Build System
 * <http://net.tutsplus.com/tutorials/tools-and-tips/sublime-text-2-tips-and-tricks/>
 
 * An awesome tutorial video: <http://www.youtube.com/watch?v=TZ-bgcJ6fQo>
-	- can also search for tuts premium online video courses.
+* can also search for tuts premium online video courses.
 
