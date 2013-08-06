@@ -19,11 +19,13 @@ tags: []
 
 ## Hotkeys
 * cmd+click : create another cursor 
-* cmd+j : join following line to current line, can be used put everything on one line
+* cmd+j : join following line to current line, can be used to put everything on one line
 * cmd+b : build, depending on what source type
-* cmd+d : quick add next
+* cmd+d : quick find and highlight next
 * ctl+cmd+g : select all occurrences of selection or word
 * ctl+cmd+l : select selection 
+* cmd+shift+L : Highlight a few lines of code, use this command, get MEGA CURSOR! Great for editing a bunch of lines at once.
+* cmd + / : comment out code
 * opt + "selection" : select in a column
 * cmd+i : incremental search, jump to the next occurrence relative to cursor
 * opt+cmd+r : turn on regex (far left option)
@@ -81,6 +83,15 @@ You can google 'sublime text -language- snippets' and clone into package directo
 * Url something? Runs/opens a comment url in a new tab and shows response 
 * Live reload: Auto reloads open html page in the browser.
 * copy relative paths for a links and css and js
+
+### Tony's favs
+
+* Emmet: A newer SublimeText (although, I rarely use this)
+* Git: Git Add, Commit, Diff from Sublime
+* Gihubinator: cmd+\ or right click, open a browser with that code highlighted in the git repo (great for generating links to send to coworkers) or access a quick Git Blame
+* SublimeLinter: Lets you know when your code is ugly
+* TrailingSpaces: Lets you easily delete trailing spaces
+* MarkdownBuild: Build/preview markdown from Sublime (although, I prefer using the stand-alone editor Mou)
 
 ### Marked
 A auto refresh markdown viewer. Available in the App Store.
