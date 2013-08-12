@@ -7,7 +7,7 @@ tags: []
 ---
 {% include JB/setup %}
 
-A step by step descrition of how keys are securely passed.
+A step by step description of how keys are securely passed.
 
 1. Sender generates **session symmetric key**.
 	* Symmetric meaning both parties will use the same key.
